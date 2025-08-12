@@ -8,7 +8,7 @@ from insightface.app import FaceAnalysis
 
 # 1) Corrected paths to match your layout
 RAW_DIR  = pathlib.Path(r"H:\Python\LoRA_project\raw_photos")
-OUT_DIR  = pathlib.Path(r"H:\Python\LoRA_project\training_data\20_minamyla_person")
+OUT_DIR  = pathlib.Path(r"H:\Python\LoRA_project\training_data\20_uniquename_person")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 MANIFEST = pathlib.Path(r"H:\Python\LoRA_project\manifest.csv")
 
